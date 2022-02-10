@@ -1,0 +1,14 @@
+sno=int(input('enter sno : '))
+sname=input('enter name : ')
+group=input('enter group :')
+s1=int(input('enter python marks :'))
+s2=int(input('enter java marks : '))
+s3=int(input('enter AFM marks : '))
+if s1<35 and s2<35 and s3<35 :
+    print('fail!!!')
+else:
+    print('pass!!!')
+tot=s1+s2+s3
+print('total : ',tot)
+avg = tot/3
+print('average :',avg)
